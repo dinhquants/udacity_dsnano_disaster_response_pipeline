@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-![Intro Pic](screenshots/intro.png)
+![Intro Pic](images/dead-one.jpg)
 
 ## Table of Contents
 1. [Description](#description)
