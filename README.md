@@ -56,7 +56,7 @@ https://github.com/dinhquants/udacity_dsnano_disaster_response_pipeline.git
 2. Run the following command in the app's directory to run your web app.
     `python run.py`
 
-3. Go to http://0.0.0.0:3001/
+3. Go to http://0.0.0.0:3000/
 
 <a name="material"></a>
 ### Additional Material
@@ -84,7 +84,7 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 * [Udacity](https://www.udacity.com/) for providing such a complete Data Science Nanodegree Program
 * [Appen](https://www.figure-eight.com/) for providing messages dataset to train my model
 
-
+<a name="screenshots"></a>
 ## Screenshots
 
 1. This is an example of a message you can type to test Machine Learning model performance
