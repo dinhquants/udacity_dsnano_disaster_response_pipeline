@@ -42,7 +42,7 @@ The Project is divided in the following Sections:
 ### Installing
 Clone this GIT repository:
 ```
-git clone https://github.com/dinhquants/udacity_dsnano_disaster_response_pipeline.git
+https://github.com/dinhquants/udacity_dsnano_disaster_response_pipeline.git
 ```
 <a name="executing"></a>
 ### Executing Program:
