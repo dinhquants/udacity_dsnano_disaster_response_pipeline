@@ -95,6 +95,6 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 ![Sample Output](images/image2.png)
 
-3. The main page shows some graphs about training dataset, provided by Figure Eight
+3. The main page shows some graphs about training dataset, provided by https://plotly.com/
 
 ![Main Page](images/image3.png)
