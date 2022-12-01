@@ -89,7 +89,7 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 1. This is an example of a message you can type to test Machine Learning model performance
 
-![Sample Input](screenshots/sample_input.png)
+![Sample Input](images/image.png)
 
 2. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green
 
