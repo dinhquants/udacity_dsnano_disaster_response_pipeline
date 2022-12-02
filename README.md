@@ -1,22 +1,45 @@
-# Disaster Response Pipeline Project
+# Web Application for Disaster Response
 
 ![Intro Pic](images/banner.jpg)
 
 ## Table of Contents
-1. [Description](#description)
+1. [Introduction](#introduction)
 2. [Getting Started](#getting_started)
-	1. [Dependencies](#dependencies)
-	2. [Installing](#installing)
-	3. [Executing Program](#executing)
-	4. [Additional Material](#material)
+	1. [Overview](#overview)
+	2. [Dependencies](#files)
+	3. [Files Descriptions](#dependencies)
+	4. [Installing](#installing)
+	5. [Executing Program](#executing)
+	6. [Additional Material](#material)
 3. [Authors](#authors)
 4. [License](#license)
 5. [Acknowledgement](#acknowledgement)
 6. [Screenshots](#screenshots)
 
 <a name="descripton"></a>
-## Description
+## Introduction
 
+In 2021, the Emergency Event Database (EM-DAT) recorded 432 disastrous events
+related to natural hazards worldwide Overall, these accounted for 10,492 deaths,
+affected 101.8 million people and caused approximately 252.1 billion US$ of
+economic losses. Globally, whilst the number of deaths and the number of people 
+affected were below their 20-year averages, 2021 was marked by an increase 
+in the number of disaster events and extensive economic losses. 
+Five of the top ten most economically costly disasters in 2021 occurred in 
+the United States of America and resulted in a total economic cost of 112.5 billion US$.
+
+![Top10](images/Top10.png)
+
+As above statistics, disaster damage is very very high. So, to reduce damage, in this project, 
+we will be building a disaster response web application that will 
+classify the message into different categories like medical supplies, food, or block road 
+and direct them to the right organization to provide speedy recovery as soon as possible!
+
+<a name="getting_started"></a>
+## Getting Started
+
+<a name="overview"></a>
+### Overview
 This Project is part of Data Science Nanodegree Program by Udacity in collaboration with Appen.
 The initial dataset contains pre-labelled tweet and messages from real-life disaster. 
 The aim of the project is to build a Natural Language Processing tool that categorize messages.
@@ -27,8 +50,26 @@ The Project is divided in the following Sections:
 2. Machine Learning Pipeline to train a model able to classify text message in categories
 3. Web App to show model results in real time. 
 
-<a name="getting_started"></a>
-## Getting Started
+### Files Descriptions <a name="files"></a>
+
+The files structure is arranged as below:
+
+	- README.md: read me file
+	- ETL Pipeline Preparation.ipynb: contains ETL pipeline preparation code
+	- ML Pipeline Preparation.ipynb: contains ML pipeline preparation code
+	- workspace
+		- \app
+			- run.py: flask file to run the app
+		- \templates
+			- master.html: main page of the web application 
+			- go.html: result web page
+		- \data
+			- disaster_categories.csv: categories dataset
+			- disaster_messages.csv: messages dataset
+			- DisasterResponse.db: disaster response database
+			- process_data.py: ETL process
+		- \models
+			- train_classifier.py: classification code
 
 <a name="dependencies"></a>
 ### Dependencies
@@ -44,6 +85,8 @@ Clone this GIT repository:
 ```
 https://github.com/dinhquants/udacity_dsnano_disaster_response_pipeline.git
 ```
+
+
 <a name="executing"></a>
 ### Executing Program:
 1. Run the following commands in the project's root directory to set up your database and model.
