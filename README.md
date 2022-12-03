@@ -130,9 +130,8 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 <a name="screenshots"></a>
 ## Screenshots
 
-1. This is an example of a message you can type to test Machine Learning model performance
-
-![Sample Input](images/image.png)
+1. This is an example of a message you can type to test Machine Learning model performance  
+`We have a lot of problem at Tokyo, those people need water and food.`
 
 2. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green
 
@@ -140,4 +139,4 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 
 3. The main page shows some graphs about training dataset, provided by Appen
 
-![Main Page](images/image3.png)
+![Main Page](images/image1.png)
