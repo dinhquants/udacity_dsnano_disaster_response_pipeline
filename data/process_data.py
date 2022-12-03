@@ -1,5 +1,6 @@
 import sys
 import pandas as pd
+import numpy as np
 from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
@@ -57,8 +58,8 @@ def clean_data(df):
     # replace NaN value with 0
     df = df.fillna(0)
     for column in categories:
-        # change all value to int
-        df[column] = df[column].astype(int)
+        # convert values to binary
+        df[column] = np.where(df[column].astype(int)<1, 0, 1)        
         
     # drop duplicates
     df.drop_duplicates(inplace=True)        
